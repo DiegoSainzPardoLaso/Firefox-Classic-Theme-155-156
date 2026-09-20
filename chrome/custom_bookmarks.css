@@ -220,3 +220,15 @@ toolbarbutton.bookmark-item:not(.subviewbutton)
 	background-image: url("images/folder.svg");
 }
  
+ 
+ 
+ 
+:is(#TabsToolbar, #vertical-tabs) toolbarbutton .toolbarbutton-badge-stack, :is(#TabsToolbar, #vertical-tabs) > toolbarpaletteitem, :is(#TabsToolbar, #vertical-tabs) > toolbarbutton {
+  min-height: unset !important;
+  padding: unset !important;
+  margin: 0 2px !important;
+    margin-top: 0px;
+    margin-right: 2px;
+  margin-top: -24px !important;
+  margin-right: 10px !important;
+}

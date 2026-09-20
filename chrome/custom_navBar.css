@@ -465,3 +465,14 @@ toolbar .toolbaritem-combined-buttons > .toolbarbutton-combined > .toolbarbutton
 toolbar:not(#nav-bar, #TabsToolbar) .toolbarbutton-badge {
   transform: translate(2px, -2px) !important;
 }
+
+
+
+:root:not([lwtheme-image]) #nav-bar, :root[echelon-style-4] #nav-bar {
+  border-top: 1.0px solid rgba(26, 26, 26, 0.5) !important;
+  border-left: 1px solid rgba(26, 26, 26, 0.4) !important;
+  border-right: 1px solid rgba(26, 26, 26, 0.4) !important;
+  border-top-left-radius: var(--toolbar-border-radius);
+  border-top-right-radius: var(--toolbar-border-radius);
+  margin-top: -7.5px !important;
+}

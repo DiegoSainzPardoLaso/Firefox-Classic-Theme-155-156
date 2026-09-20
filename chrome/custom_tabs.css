@@ -17,7 +17,7 @@
 /*| Custom New Variables |  
 /*#======================#
 */
-	--margin_to_the_top: 			15px !important;
+	--margin_to_the_top: 			2px !important;
 	--first_tab_margin_to_the_left:  2px !important;
 	
 	
@@ -30,7 +30,7 @@
 	
 	
 	
-  --classic_squared_tabs_tab_height: 26px;
+  --classic_squared_tabs_tab_height: 12px;
   --classic_squared_tabs_tab_default_loading_icon_color: #0A84FF;
   --classic_squared_tabs_active_tab: linear-gradient(to top,#f9f9f9,#f9f9f9,#f9f9f9);
   --classic_squared_tabs_hovered_tabs: linear-gradient(to top,#cac7c1,#d5d2cc,#e8e6e2);
@@ -721,4 +721,11 @@
 .tabbrowser-tab:-moz-window-inactive .tab-label 
 {
 	opacity: 1 !important;
+}
+ 
+#tabbrowser-tabs {
+  &[orient="horizontal"] {
+    --tab-group-label-highlight-radius: 2px;
+    max-height: 27px !important;
+  }
 }

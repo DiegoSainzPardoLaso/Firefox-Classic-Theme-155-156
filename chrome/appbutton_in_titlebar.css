@@ -381,3 +381,12 @@ panel[id="appMenu-popup"][type="arrow"][side="bottom"] {
   padding-inline-start: var(--appbutton_in_titlebar) !important;
   margin-bottom: 4px !important;
 }
+
+
+@media not ((forced-colors) or (-moz-native-theme)) {
+  :root:not([lwtheme]) {
+    &:where([customtitlebar]) {
+      --toolbox-background-color-inactive: light-dark(rgb(234, 234, 237), rgb(31, 30, 37));
+    }
+  }
+}

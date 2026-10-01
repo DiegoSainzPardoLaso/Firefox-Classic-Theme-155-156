@@ -28,3 +28,12 @@
 
 }
 }
+
+
+#tabbrowser-tabs tab-split-view-wrapper {
+  & .tabbrowser-tab {
+    #tabbrowser-tabs[orient="horizontal"] tab-split-view-wrapper & {
+      height: 27px !important;
+    }
+  }
+}

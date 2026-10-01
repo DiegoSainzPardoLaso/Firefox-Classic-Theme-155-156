@@ -375,3 +375,9 @@ panel[id="appMenu-popup"][type="arrow"][side="bottom"] {
 	--border-radius-medium: 0px !important;
 	--border-radius-large: 0px !important;
 }
+
+
+#main-window:is([tabsintitlebar], [customtitlebar])[sizemode="maximized"] #toolbar-menubar {
+  padding-inline-start: var(--appbutton_in_titlebar) !important;
+  margin-bottom: 4px !important;
+}

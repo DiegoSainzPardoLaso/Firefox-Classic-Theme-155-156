@@ -1,0 +1,18 @@
+@import url("custom_base.css");
+
+@import url("custom_main.css");
+@import url("custom_misc.css");
+@import url("custom_urlbar.css");
+@import url("custom_tabs.css");
+@import url("custom_favicons.css");
+@import url("custom_navBar.css");
+@import url("custom_popups.css");
+@import url("custom_library.css");
+@import url("custom_bookmarks.css");
+@import url("custom_about.css");
+@import url("custom_rightclick.css");
+@import url("appbutton_in_titlebar.css");
+@import url("custom_tooltip.css");
+@import url("custom_history.css");
+
+@import url("custom_splittabs.css");

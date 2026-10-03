@@ -1,0 +1,70 @@
+ 
+
+.toolbar-menupopup {
+  &, & menupopup {
+    appearance: none;
+    border: none;
+    font: menu;    
+    margin-top: -3px !important;
+ 
+	max-width: 												390px !important;
+	min-width: 												120px !important;
+    --panel-background-color: 							  #f2f2f2 !important;
+    --panel-border-color:  	  							#02025544 !important;
+    --panel-border-radius: 							  		  0px !important;
+    --panel-text-color: 						  		 inherit; 
+    --panel-padding: 		   var(--panel-subview-body-padding); 
+	--panel-box-shadow: 	   2px 2px 1px -1px rgba(0,0,0,0.53)       !important;
+    
+    --menuitem-border-radius:  					              0px !important;	
+ 
+  }
+}
+
+
+menupopup > menu::after 
+{
+    content: "";
+    display: block;
+    width:  16px !important;
+    height: 16px !important;
+    background-image: url("images/right_arrow.svg") !important;
+    background-size: var(--menu-arrow-size);
+    -moz-context-properties: fill, fill-opacity;
+    fill: currentColor;
+    fill-opacity: var(--menu-arrow-opacity);
+    margin-inline: 1em 0;
+    margin-inline-start: 1em;
+}
+
+
+
+
+
+
+.searchmode-switcher-dropmarker 
+{    
+    content: url("images/dropdown.svg") !important;
+}
+
+#sidebar-switcher-arrow {
+    list-style-image: url("images/dropdown.svg") !important;
+    width: var(--icon-size-xsmall);
+    height: var(--icon-size-xsmall);
+}
+
+
+#sidebar-box[sidebarcommand="viewHistorySidebar"] > #sidebar-header > #sidebar-switcher-target > #sidebar-icon {
+    list-style-image: url("images/history.png") !important;
+    -moz-context-properties: fill;
+    fill: currentColor;
+    opacity: 0.8;
+}
+
+#sidebar-header {
+    font-size: 1em !important;
+    padding: 2px !important;
+    border-bottom: 1px solid var(--sidebar-border-color);
+}
+
+ 

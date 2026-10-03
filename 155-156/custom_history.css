@@ -1,0 +1,191 @@
+
+/* History */
+#heading-wrapper {
+    & .chevron-icon
+
+{
+    margin-top: 3px !important;
+    margin-left: 311px !important;
+    background-image: var(--card-accordion-closed-icon, url("images/history-sidebar.png")) !important;
+}
+
+}
+
+
+#sidebar-splitter {
+    margin-inline-start: 0 !important;
+    border-width: 0 1px !important;
+    border-left-color: ThreeDShadow !important;
+    border-right-color: ThreeDDarkShadow !important;
+    box-shadow: inset 1px 0 ThreeDHighlight !important;
+    min-width: 0px !important;
+    width: 6px !important;
+    background-color: ThreeDFace !important;
+}
+
+
+.sidebar-panel {
+    display: flex;
+    flex-direction: column;
+    padding: 0px !important;
+    box-sizing: border-box;
+    border-radius: 0px !important;
+    width: 100;
+    height: 100;
+    moz-input-search
+
+{
+    margin-left: 10px !important;
+    border-color: #00000000 !important;
+}
+
+}
+
+
+:root {
+    --searchbar_height: 22px !important;
+    --view_button_bakground_color: #e1e1e1 !important;
+    --search_container_bakground_color: #f0f0f0 !important;
+}
+
+
+#input {
+    &[type="search"]
+
+{
+    height: 33px !important;
+    min-height: 10px !important;
+    max-height: var(--searchbar_height) !important;
+    --input-background-icon: url(chrome://global/skin/icons/search-textbox.svg);
+    padding-inline-end: var(--space-xxsmall);
+    border-radius: 0px !important;
+    margin-top: -6px !important;
+    &:focus
+
+{
+    border: 0px solid black !important;
+    outline: 1px solid #0078d7 !important;
+}
+
+}
+}
+
+
+
+#sidebar-search-container {
+    border-bottom: 1px solid rgb(128 128 128) !important;
+    border-top: 1px solid rgb(190 190 190) !important;
+    height: 30px !important;
+    background-color: var(--search_container_bakground_color) !important;
+    margin-left: 0px !important;
+}
+
+
+#viewButton {
+    background-color: var(--search_container_bakground_color) !important;
+    height: 22px !important;
+    margin-top: -6px !important;
+    margin-inline-start: 4px !important;
+    border-radius: 2px !important;
+    &:hover
+
+{
+    background-color: #c3e4ff !important;
+    outline: #97d0ff !important;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+#heading {
+    font-size: var(--card-font-size);
+    font-weight: var(--font-weight-heading);
+    margin-top: 3px !important;
+}
+
+
+details {
+    > summary
+
+{
+    background-color: var(--card-header-background-color);
+    border-color: var(--card-header-border-color);
+    color: var(--card-header-text-color);
+    list-style: none;
+    border-radius: 0px !important;
+    height: 20px !important;
+    min-height: 0px !important;
+    cursor: pointer;
+    &:hover
+
+{
+    background-color: #0078d799 !important;
+    border-color: var(--card-header-border-color-hover);
+    color: var(--card-header-text-color-hover);
+}
+
+&:active {
+    background-color: #0078d799 !important;
+    border-color: var(--card-header-border-color-active);
+}
+
+&:focus-visible {
+    outline: var(--card-focus-outline);
+}
+
+}
+
+&[open] {
+    summary
+
+{
+    border-end-start-radius: 0;
+    border-end-end-radius: 0;
+}
+
+@media not (prefers-contrast) {
+    #content {
+        /*
+        There is a border shown above this element in prefers-contrast.
+        When there isn't a border, there's no need for the extra space.
+         */
+        padding-block-start: 0;
+    }
+}
+
+}
+}
+
+
+
+
+
+#input {
+    &[type="search"]
+
+{
+    background-image: url("images/search.png") !important;
+    border-radius: var(--input-search-border-radius);
+    padding-inline-end: var(--space-xxsmall);
+}
+
+}
+
+
+
+
+
+
+treechildren::-moz-tree-image(query, OrganizerQuery_history____v),
+treechildren::-moz-tree-image(title, query, dayContainer) {
+    list-style-image: url("images/history-sidebar.png") !important;
+}

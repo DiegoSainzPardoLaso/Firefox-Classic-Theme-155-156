@@ -1,0 +1,74 @@
+
+:host([nonhandoff]) {
+  & .contentSearchSuggestionTable .historyIcon 
+  {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    background-image: url("images/search.png") !important;
+    -moz-context-properties: fill;
+    fill: graytext;
+  }
+}
+
+
+@-moz-document url-prefix("about:home"), url-prefix("about:newtab") 
+{
+  .search-wrapper,
+  .search-inner-wrapper,
+  .search-handoff-button 
+  {
+	  border-radius: 	0px 	!important;
+	 
+  }
+  
+.dialogBox 
+{
+  &:not(.spotlightBox) 
+  {
+    box-shadow: var(--popup-box-shadow);
+    border-radius: 2px;    
+  }
+}
+
+}
+
+
+
+
+
+
+.search-wrapper content-search-handoff-ui 
+{
+	
+	
+	
+    
+  --content-search-handoff-ui-border-radius: 2px !important;  
+  --content-search-handoff-ui-background-color: #fefefe !important;
+  --content-search-handoff-ui-color: var(--newtab-text-primary-color);
+  --content-search-handoff-ui-fill: var(--newtab-text-secondary-color);
+  --content-search-handoff-ui-caret-color: var(--newtab-text-primary-color);
+  --content-search-handoff-ui-fakefocus-border-color: var(--newtab-primary-action-background);
+  --content-search-handoff-ui-fakefocus-box-shadow-inner: var(--newtab-primary-action-background-dimmed);
+  --content-search-handoff-ui-fakefocus-box-shadow-outer: transparent;
+}
+
+:root 
+{
+    --border-radius-circle: 4px !important;
+    --border-radius-small:  6px !important;
+    --border-radius-medium: 6px !important;
+    --border-radius-medium: 6px !important;
+
+    --button-border-radius: 3px !important;
+}
+
+
+.search-button 
+{
+    background-image: url("images/searchbar-search-icon.png") !important;
+    border-radius: 0px !important;
+ 
+
+}

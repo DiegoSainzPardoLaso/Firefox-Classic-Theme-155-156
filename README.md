@@ -7,7 +7,8 @@ In a new tab, type **about:config** in the address bar and press Enter. Click th
 to do with this)
 
 Then in a new tab write **about:support**. 
-Open the profile folder and paste the **chrome** folder and the **User.js** file inside it.
+Open the profile folder and create a **chrome** folder. Then paste everything inside the version of your firefox inside that folder except for the
+**User.js**, that should be placed inside the profile folder.
 
 Enjoy.
 

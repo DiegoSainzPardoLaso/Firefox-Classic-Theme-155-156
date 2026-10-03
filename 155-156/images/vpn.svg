@@ -1,0 +1,12 @@
+<svg width="16" height="16" xmlns="http://www.w3.org/2000/svg">
+ <g id="Layer_1">
+  <title>Layer 1</title>
+  <line stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_2" y2="12.55612" x2="3.32126" y1="3.71817" x1="0.49803" stroke="#000" fill="none"/>
+  <line stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_3" y2="12.316" x2="3.28035" y1="3.72354" x1="5.53075" stroke="#000" fill="none"/>
+  <line stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_4" y2="12.52693" x2="6.96283" y1="3.88183" x1="6.96283" stroke="#000" fill="none"/>
+  <path id="svg_5" d="m11.41516,12.68066l-0.1561,-8.77042" opacity="undefined" stroke-linecap="undefined" stroke-linejoin="undefined" stroke="#000" fill="none"/>
+  <path id="svg_6" d="m15.39162,4.12174l0.06244,8.75478" opacity="undefined" stroke-linecap="undefined" stroke-linejoin="undefined" stroke="#000" fill="none"/>
+  <path id="svg_7" d="m11.29639,4.15907l4.17348,8.57074" opacity="undefined" stroke-linecap="undefined" stroke-linejoin="undefined" stroke="#000" fill="none"/>
+  <path id="svg_9" d="m7.99677,9.15578c-1.12473,0 -1.01034,-1.08552 -1.01034,-2.42566c0,-1.34015 -0.11439,-2.42566 1.01034,-2.42566c1.12473,0 2.03577,1.08552 2.03577,2.42566c0,1.34015 -0.91103,2.42566 -2.03577,2.42566z" opacity="undefined" stroke="#000" fill="none"/>
+ </g>
+</svg>
